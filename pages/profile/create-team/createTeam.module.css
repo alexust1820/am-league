@@ -1,0 +1,49 @@
+.content {
+    padding: 150px 0 0 0;
+}
+
+.form {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: auto auto;
+    align-items: start;
+}
+
+.emailTitle {
+    text-align: center;
+}
+
+.playersEmails, .teamName {
+    display: grid;
+    grid-template-columns: 450px;
+    justify-self: center;
+    justify-items: center;
+}
+
+.teamName {
+    justify-items: stretch;
+}
+
+.push {
+    width: 150px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1000px) {
+    .content {
+        padding: 50px 0 0 0;
+    }
+
+    .form {
+        position: relative;
+        display: grid;
+        grid-column-gap: 20px;
+        grid-template-columns: auto;
+        grid-template-rows: 150px auto;
+    }
+
+    .playersEmails, .teamName {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+}

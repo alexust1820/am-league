@@ -1,0 +1,22 @@
+{
+  "name": "am-league-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "alexust1820",
+  "license": "ISC",
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "antd": "^4.22.3",
+    "axios": "^0.27.2",
+    "cookies-next": "^2.1.1",
+    "next": "^12.2.4"
+  }
+}
